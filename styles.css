@@ -1,0 +1,187 @@
+
+body{
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff; 
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Heading */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;  
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features */  
+
+#features{
+    position: relative;
+    /* z-index: 1; This is optional as the one below another section will go on top */
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: #ef8172;  
+    margin-bottom: 16px;  
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial-Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press-Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.product-title{
+    font-size: 1.5rem;
+}
+
+.pricing-columns {
+    padding: 3% 2%;
+}
+
+/*Media Query*/
+
+@media (max-width:1028px){  /* max-width is 1028 means the window size is 1028 and less means it is mobile or tablet*/
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+#cta {
+    margin-bottom: 100px;
+    /* font-family: 'Montserrat-light', sans-serif; */
+}
+
+
+#footer {
+    margin: 20px 20px 100;
+    /* margin-bottom: 100px; */
+}
+
+.footer-link{
+    padding: 10px;
+    color: black;
+}
+
+ .Copyright{
+    font-size: large;
+    padding: 20px;
+ }
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
